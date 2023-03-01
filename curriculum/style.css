@@ -1,0 +1,186 @@
+nav {
+	width: 15%;
+	height: 100%;
+	font-size: 25px;
+	position: fixed;
+	background-color: gray;
+	z-index: 10;
+	}
+nav ul{
+	list-style:none;
+}
+nav ul>li{
+	padding:20px 0;
+	width: 100%
+
+}
+nav ul>li>a{
+	padding: 20px 0;
+	color: #F5EDED;
+	font-weight: 800;
+	text-decoration: none;
+}
+nav ul>li:nth-child(1){
+	background-color: #FBC430
+}
+nav ul>li:nth-child(2){
+	background-color: #2FCB6A
+}
+nav ul>li:nth-child(3){
+	background-color: #0DDCF8
+}
+nav ul>li:nth-child(4){
+	background-color: #B80DF8
+}
+nav ul>li:nth-child(5){
+	background-color:  #F80DA3
+}
+nav ul>li:nth-child(6){
+	background-color: #F80D0D
+}
+html{
+	height: 100%;
+	position:relative;
+}
+body{
+	height: 100%;
+	overflow-x: hidden;
+}
+header{
+	position: relative;
+	background-color: gray;
+	height: 70%;
+	background:linear-gradient(to right,#FBC430 0%, #FBC430 70%,#FBE333 70%, #FBE333 100%);
+}
+
+header .text-box{
+	position: absolute;
+	top: 50%;
+	left: 60%;
+	width:100%;
+	text-align: center;
+	transform: translate(-50%,-50%);
+
+}
+.text-box>h1{
+	font-size: 90px
+}
+.text-box>h5{
+	font-size: 20px
+}
+.text-box>h4{
+	font-size: 40px
+}
+section{
+	padding: 100px 0px;
+}
+.btn-about{
+	background-color:#2FCB6A;
+	color:#F5EDED;
+}
+.btn-contact{
+	background-color:#F80D0D;
+	color:#F5EDED; 
+}
+#aboutme .panel{
+	width: 80%;
+	background-color: #2FCB6A ;
+	min-height: 400px;
+	margin-left: 10%;
+	border-radius: 10px;
+	box-shadow: 0 0 20px #C9CBCA;
+	padding: 3%;
+
+}
+#aboutme .panel img{
+	width: 100%;
+}
+#aboutme h2, #skills h2, #servicios h2, #porfolio h2, #contacto h2{
+	font-size: 40px;
+	margin: 0px 20% 50px;
+}
+.barra {
+	width: 100%;
+	height: 20px;
+	border:1px solid #0DDCF8;
+	margin-top: 10px;
+}
+.fill-70{
+	background:linear-gradient(to right,#0DDCF8 0%, #0DDCF8 70%,transparent 70%, transparent 100%);
+}
+.container-icono{
+	width: 25%;
+	margin-left:75%;
+}
+.container-icono-short{
+	width: 18%;
+	margin-left: 80%;
+}
+.container-icono-bigger{
+	width: 35%;
+	margin-left: 70%;
+}
+.fill-80{
+	background:linear-gradient(to right,#0DDCF8 0%, #0DDCF8 80%, transparent 80%, transparent 100%);
+}
+.mg-top-30{ 
+	margin-top: 20px
+}    
+.fill-50{
+	background:linear-gradient(to right,#0DDCF8 0%, #0DDCF8 50%, transparent 50%, transparent 100%);
+}
+.fill-30{
+	background:linear-gradient(to right,#0DDCF8 0%, #0DDCF8 30%, transparent 30%, transparent 100%);
+}
+.fill-95{
+	background:linear-gradient(to right,#0DDCF8 0%, #0DDCF8 95%, transparent 95%, transparent 100%);
+}
+.fill-60{
+	background:linear-gradient(to right,#0DDCF8 0%, #0DDCF8 60%, transparent 60%, transparent 100%);
+}
+.fill-55{
+	background:linear-gradient(to right,#0DDCF8 0%, #0DDCF8 55%, transparent 55%, transparent 100%);
+}
+.fill-50{
+	background:linear-gradient(to right,#0DDCF8 0%, #0DDCF8 50%, transparent 50%, transparent 100%);
+}
+#servicios ul{
+	list-style: none;
+}
+#servicios ul>li{
+	font-size: 30px;
+	color: #F5EDED;
+	margin-left: 9%;
+}
+#servicios{
+	color: #F5EDED;
+	
+	padding: 100px 0;
+	box-shadow: 0 0 20px #474747;
+	background:linear-gradient(to right,#B80DF8 0%, #B80DF8 70%,#E916C0 70%, #E916C0 100%)
+}
+.container-img img{
+	width: 100%;
+}
+.container-img{
+	margin: 10px auto;
+}
+.btn-porfolio{
+	background-color: #F80DA3;
+	color: #F5EDED;
+
+}
+#contacto a{
+	color: #F80D0D;
+	margin-left: 10px;
+
+}
+#contacto h5{
+	font-size: 25px;
+	margin-left: 2%;
+}
+footer{
+	width: 100%;
+	height:40px;
+	background-color:#F80D0D; 
+}
