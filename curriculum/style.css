@@ -1,5 +1,8 @@
+html{
+	
+}
 nav {
-	width: 15%;
+	width: 20%;
 	height: 100%;
 	font-size: 25px;
 	position: fixed;
@@ -44,9 +47,16 @@ html{
 }
 body{
 	height: 100%;
-	overflow-x: hidden;
+	margin:0 auto;
+	background-image: url(imagen/background.jpg);
+	background-size: 150% auto;
+	
 }
+
+
 header{
+	width:80%;
+	margin-left:20%;
 	position: relative;
 	background-color: gray;
 	height: 70%;
@@ -56,7 +66,7 @@ header{
 header .text-box{
 	position: absolute;
 	top: 50%;
-	left: 60%;
+	left: 50%;
 	width:100%;
 	text-align: center;
 	transform: translate(-50%,-50%);
@@ -72,6 +82,8 @@ header .text-box{
 	font-size: 40px
 }
 section{
+	width:80%;
+	margin-left:20%;
 	padding: 100px 0px;
 }
 .btn-about{
@@ -183,4 +195,57 @@ footer{
 	width: 100%;
 	height:40px;
 	background-color:#F80D0D; 
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	section, header{
+		width:100%;
+		margin-left:0%;
+	}
+	.container-icono,.container-icono-bigger{
+		width:100%;
+		margin:0 auto;
+	}
+	.container-icono-short{
+		width:90%;
+		margin-left:5%;
+	}
+	#aboutme h2, #skills h2, #servicios h2, #porfolio h2, #contacto h2{
+		font-size: 40px;
+		margin: 0 auto 50px;
+		text-align: center;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) and (max-width: 768px){
+	section, header{
+		width:100%;
+		margin-left:0%;
+	}
+	#aboutme h2, #skills h2, #servicios h2, #porfolio h2, #contacto h2{
+		font-size: 40px;
+		margin: 0 auto 50px;
+		text-align: center;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+	ul{
+		padding-left:0;
+	}
+	#contacto h5 {
+		font-size:18px;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	
 }
